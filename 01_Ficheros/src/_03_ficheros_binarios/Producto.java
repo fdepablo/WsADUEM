@@ -1,6 +1,11 @@
 package _03_ficheros_binarios;
 
-public class Producto {
+import java.io.Serializable;
+
+public class Producto implements Serializable{
+	
+	private static final long serialVersionUID = 1646340116050987350L;
+	
 	private String nombre;
 	private float precio;	
 	private int unidadesEnExistencia;

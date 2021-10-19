@@ -25,6 +25,10 @@ public class _05_LecturaFicheroAutoclose {
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
+		} catch (NullPointerException npe) {
+			npe.printStackTrace();
+		} catch(Exception e) {
+			e.printStackTrace();
 		}
 	}
 }
