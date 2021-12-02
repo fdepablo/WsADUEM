@@ -33,7 +33,7 @@ public class _07_AlmacenarEnObjeto {
 				listadoPersonas.add(p);
 			}
 
-			System.out.println(listadoPersonas);
+			listadoPersonas.forEach((v) -> System.out.println(v));
 		} catch (SQLException e) {
 			System.out.println("Error al realizar el listado de productos");
 			System.out.println(e.getMessage());

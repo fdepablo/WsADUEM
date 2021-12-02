@@ -17,10 +17,10 @@ public class _05_Modificar {
 			
 			String sql = "update personas set NOMBRE=?, EDAD=?, PESO=? WHERE ID=?";
 			
-			String nombre = "Dumbeldor";
-			int edad = 600;
-			double peso = 89.7;
-			int id = 6;
+			String nombre = "Voldemor";
+			int edad = 890;
+			double peso = 79.7;
+			int id = 7;
 			
 			System.out.println("Se va a ejecutar la siguiente sentencia SQL:");
 			System.out.println(sql);
