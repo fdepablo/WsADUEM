@@ -55,19 +55,19 @@ public class _03_PruebasOneToMany {
 		//Si queremos insertar todos los objetos y NO hay CASCADES hemos
 		//de hacerlo por orden. Esto tambien lo podemos hacer haya o no 
 		//haya CASCADES
-		//em.persist(c);
-		//em.persist(p1);
-		//em.persist(p2);
-		//em.persist(p3);
-		//em.persist(p4);
-		//em.persist(p5);
-		//em.persist(db);
+		em.persist(c);
+		em.persist(p1);
+		em.persist(p2);
+		em.persist(p3);
+		em.persist(p4);
+		em.persist(p5);
+		em.persist(db);
 		
 		//Como tenemos cascades en los dos extremos da igual el objeto
 		//que escojamos para hacer el persist...	
 		//Se insertan tb los pedidos en una especie de proceso batch, es decir
 		//multiples inserts en la BBDD
-		em.persist(c); 
+		em.persist(p2); 
 		System.out.println(" ----- Dando de alta el cliente, sus pedidos y sus datos bancarios ----- ");
 				
 		//El siguiente persist tambien funcionaria, de hecho al insertar cliente
@@ -116,6 +116,8 @@ public class _03_PruebasOneToMany {
 		//dento de las etiquetas correspondientes de la clase Cliente, por ejemplo:
 		//@OneToOne(mappedBy = "cliente", cascade=CascadeType.ALL,fetch = FetchType.LAZY)
 		//@OneToMany(mappedBy = "cliente", cascade=CascadeType.ALL, fetch = FetchType.EAGER) 
+		
+		//System.out.println("Numero de pedidos " + c2.getPedidos().size());
 		
 		//Nota para Hibernate a la hora de acceder a los pedidos si esta configurado
 		//como lazy:
