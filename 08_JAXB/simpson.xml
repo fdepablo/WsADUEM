@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<familia>
+    <ciudad>Springfield</ciudad>
+    <nombre>Los Simpsons</nombre>
+    <miembros>
+        <miembro>
+            <idPersona>1</idPersona>
+            <nombre>Homer</nombre>
+            <apellidos>Simpson</apellidos>
+            <edad>38</edad>
+            <direccion>
+                <cp>742</cp>
+                <nombreVia>Evergreen Terrace</nombreVia>
+                <tipoVia>Street</tipoVia>
+            </direccion>
+        </miembro>
+        <miembro>
+            <idPersona>2</idPersona>
+            <nombre>Lisa</nombre>
+            <apellidos>Simpson</apellidos>
+            <edad>8</edad>
+            <direccion>
+                <cp>742</cp>
+                <nombreVia>Evergreen Terrace</nombreVia>
+                <tipoVia>Street</tipoVia>
+            </direccion>
+        </miembro>
+        <miembro>
+            <idPersona>3</idPersona>
+            <nombre>Bart</nombre>
+            <apellidos>Simpson</apellidos>
+            <edad>11</edad>
+            <direccion>
+                <cp>742</cp>
+                <nombreVia>Evergreen Terrace</nombreVia>
+                <tipoVia>Street</tipoVia>
+            </direccion>
+        </miembro>
+        <miembro>
+            <idPersona>4</idPersona>
+            <nombre>Marge</nombre>
+            <apellidos>Simpson</apellidos>
+            <edad>35</edad>
+            <direccion>
+                <cp>742</cp>
+                <nombreVia>Evergreen Terrace</nombreVia>
+                <tipoVia>Street</tipoVia>
+            </direccion>
+        </miembro>
+        <miembro>
+            <idPersona>5</idPersona>
+            <nombre>Magie</nombre>
+            <apellidos>Simpson</apellidos>
+            <edad>3</edad>
+            <direccion>
+                <cp>742</cp>
+                <nombreVia>Evergreen Terrace</nombreVia>
+                <tipoVia>Street</tipoVia>
+            </direccion>
+        </miembro>
+    </miembros>
+</familia>
