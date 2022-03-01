@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ordenador>
+    <perifericos>
+        <periferico>
+            <marca>Mercadona</marca>
+            <precio>69.5</precio>
+            <tipo>camara web</tipo>
+        </periferico>
+        <periferico>
+            <marca>Razer</marca>
+            <precio>90.0</precio>
+            <tipo>teclado</tipo>
+        </periferico>
+        <periferico>
+            <marca>Samsung</marca>
+            <precio>140.99</precio>
+            <tipo>monitor</tipo>
+        </periferico>
+    </perifericos>
+    <lista_ram>
+        <ram>
+            <marca>Corsair</marca>
+            <precio>40.0</precio>
+        </ram>
+        <ram>
+            <marca>Corsair</marca>
+            <precio>40.0</precio>
+        </ram>
+    </lista_ram>
+    <tarjetas_graficas>
+        <tarjeta_grafica>
+            <marca>Asus</marca>
+            <modelo>GTX 1070</modelo>
+            <precio>325.2</precio>
+            <vram>
+                <marca>Asus</marca>
+                <precio>30.0</precio>
+            </vram>
+        </tarjeta_grafica>
+    </tarjetas_graficas>
+    <marca>Dell</marca>
+    <precio>0.0</precio>
+    <procesador>
+        <hilos>2</hilos>
+        <hz>4.1</hz>
+        <marca>Intel</marca>
+        <numeroNucleos>4</numeroNucleos>
+        <precio>150.0</precio>
+    </procesador>
+</ordenador>
